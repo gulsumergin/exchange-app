@@ -1,6 +1,6 @@
 https://gulsumergin.github.io/exchange-app/index
 
-Exchange Rate Calculator Web App
+Exchange Rate Calculator Web App:
 
 This GitHub repository contains a simple web application that allows users to calculate the equivalent amount in Turkish Lira (TRY) based on a given amount in Euro (EUR). The app utilizes an external API to fetch the latest exchange rates and performs the conversion using JavaScript.
 
