@@ -1,37 +1,37 @@
-https://gulsumergin.github.io/exchange-app/index
+https://gulsumergin.github.io/exchange-app/
 
-Exchange Rate Calculator Web App:
+📄 Project Description – Exchange Rate Calculator Web App
+Category: Frontend Web Development & API Integration
+Duration: Personal Project
+Team Size: Individual
+My Role: Frontend Developer
 
-This GitHub repository contains a simple web application that allows users to calculate the equivalent amount in Turkish Lira (TRY) based on a given amount in Euro (EUR). The app utilizes an external API to fetch the latest exchange rates and performs the conversion using JavaScript.
+Problem:
+- Users need a quick and simple way to convert Euros (EUR) to Turkish Lira (TRY) using up-to-date exchange rates without manually checking financial websites.
 
-------------------------------------------------------------------------------------------
+Solution:
+- Developed a currency conversion web app that takes a Euro amount as input, fetches the latest EUR-to-TRY exchange rate from an external API, and calculates the equivalent Turkish Lira amount in real time.
 
-Features:
+Impact:
+- Provided a lightweight and user-friendly tool for instant currency conversion.
+- Demonstrated API integration skills using real-time exchange rate data.
+- Created a responsive and clean interface for ease of use.
 
-Input field for entering the amount in Euro.
-"Convert" button to trigger the currency conversion.
-Display of the calculated Turkish Lira amount in a read-only input field.
-Usage:
+Key Contributions:
+- Designed HTML structure for user input and result display.
+- Styled UI with CSS for clarity and usability.
+- Implemented JavaScript logic for API requests using XMLHttpRequest.
+- Parsed JSON responses to retrieve current TRY exchange rates.
+- Performed real-time calculations and displayed results in a read-only field.
 
-Input the desired amount in Euro.
-Click the "Convert" button to fetch the latest exchange rates and calculate the equivalent amount in Turkish Lira.
-The calculated Turkish Lira amount will be displayed in the read-only input field.
+Technologies Used:
+- HTML5
+- CSS3
+- JavaScript (DOM Manipulation, API Integration)
+- External API: ExchangeRate.host
 
-------------------------------------------------------------------------------------------
-
-Implementation Details:
-
-The app employs HTML, CSS, and JavaScript.
-Upon clicking the "Convert" button, an event listener triggers the currency conversion process.
-An XMLHttpRequest is used to fetch the latest exchange rates from the external API (https://api.exchangerate.host/latest).
-The response is parsed as a JSON object to extract the exchange rate for Turkish Lira (TRY).
-The user-entered amount in Euro is multiplied by the exchange rate to calculate the equivalent Turkish Lira amount.
-The calculated amount is displayed in the designated read-only input field.
-Please note that this app provides a basic illustration of currency conversion using an external API. Additional enhancements and features can be added to enhance user experience and functionality.
-
-For more details, refer to the HTML (index.html), CSS (styles.css), and JavaScript (app.js) files in this repository.
-
-
-
-
+Outcome:
+- Built a functional API-powered calculator for currency conversion.
+- Strengthened skills in fetching and handling external data.
+- Provided a base for extending the app with multiple currency options.
 
