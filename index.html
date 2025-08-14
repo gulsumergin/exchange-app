@@ -7,9 +7,10 @@
     <link rel="stylesheet" href="styles.css">
     <title>Exchange APP</title>
     <link rel="icon" href="money_icon.png" type="image/x-icon">
+    <!-- Chart.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
-    
     <div class="container">
      
         <label for="amount">Amount in Euro</label>
@@ -20,7 +21,10 @@
         <label for="tl">Turkish Lira</label>
         <input type="text" id="tl" readonly>
     </div>
-    
+    <div class="chart-container">
+        <canvas id="rateChart"></canvas>
+    </div>
     <script src="app.js"></script>
 </body>
+</html>
 </html>
