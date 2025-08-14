@@ -65,3 +65,21 @@ button {
     margin: 0 auto; /* Center the container horizontally */
   }
 }
+
+/* Grafik kutusu için özel stil */
+.chart-container {
+  max-width: 600px;
+  margin: 40px auto 0 auto;
+  padding: 20px;
+  background: rgba(255,255,255,0.85);
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+/* Chart.js canvas responsive olsun */
+.chart-container canvas {
+  width: 100% !important;
+  height: 320px !important;
+  display: block;
+  margin: 0 auto;
+}
